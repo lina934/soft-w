@@ -1,0 +1,117 @@
+*
+{
+  margin : 0 ;
+  padding: 0 ;  
+  box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+header
+{
+    height: 100px; 
+    width: 100%;
+    background-color:brown;
+}
+
+.main
+{
+    height: 500px; 
+    width: 100%;
+    background-color:burlywood;
+    flex-grow: 1;
+}
+footer
+{
+    height: 100px; 
+    width: 100%;
+    background-color:brown;
+}
+.fot
+{
+    font-family: serif;
+    font-size: 50;
+    padding-left: 600;
+    padding-top: 20;
+}
+.le
+{
+    padding: 10 ;
+    height: 550;
+    width: 80%;
+    background-color:bisque;
+    
+}
+.ri
+{
+    right:-1030  ;
+    top: -550;
+    padding: 10;
+    position:relative;
+
+    height: 500;
+    width: 23.3%;
+    background-color: darkgray;
+}
+.up
+{
+   overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 50;
+  border-bottom-right-radius: 50;  
+    margin: 10;
+    width: 250px ;
+    height: 120;
+    background-color: cornsilk;
+}
+.center
+{
+margin: 10;
+    width: 250px ;
+    height: 120;
+    background-color: cornsilk;
+}
+.down
+{
+margin: 10;
+    width: 250px ;
+    height: 120;
+    background-color: cornsilk;
+}
+.upp
+{
+    margin: 10;
+    width: 95%;
+    height: 210;
+    background-color: darkgray;
+}
+.downn
+{
+    margin: 10;
+    width: 95%;
+    height: 210;
+    background-color: darkgray;
+}
+.web
+{
+    
+    padding: -150;
+    padding-left:500px ;
+   font-family: serif;
+    font-size: 50;
+   
+    
+}
+.topnav 
+{
+    color: white;
+   background-color:black;
+    
+}

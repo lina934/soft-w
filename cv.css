@@ -1,0 +1,253 @@
+
+*
+{
+  margin : 0 ;
+  padding: 0 ;  
+  box-sizing: border-box;
+}
+body
+{
+   background-color: beige;   
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    min-height: 100 ;
+}
+.content
+{
+   position: relative;
+   width: 100%;
+   max-width: 1000;
+   min-height: 500; 
+   background-color: white;
+    margin: 50px ;
+  display: grid ;
+   grid-template-columns: 1fr 2fr; 
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+     
+}
+.content .left-side
+{
+   position: relative;
+   background-color:darkslateblue;
+    padding: 40px;
+}
+.content .right-side
+{
+   position: relative;
+   background-color:blueviolet;
+    padding: 40;
+}
+.up{
+    padding: 10;
+    margin-bottom: 50;
+    width: 800;
+    background-color: bisque;
+    height: 450;
+    
+    
+}
+.up:last-child
+{
+ margin-bottom: 0;   
+   
+}
+.Work-Experience
+{
+ color: aquamarine;   
+ text-transform: uppercase;   
+  letter-spacing: 1;
+    margin-bottom: 10;
+    font-family:fantasy;
+}
+.y
+{
+    border-bottom-color: darkslateblue;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.date 
+{
+  color: darkslateblue;  
+    
+}
+.p
+{
+    color: darkslateblue;
+}
+.down{
+    padding: 10;
+    margin-bottom: 50;
+    width: 800;
+    background-color: bisque;
+    height: 400;
+}
+.education
+{
+ color: aquamarine;   
+ text-transform: uppercase;   
+  letter-spacing: 1;
+    margin-bottom: 10;
+    font-family:fantasy;
+}
+
+.girl-info
+{
+  position: relative;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20;    
+   border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.girl-info .girl-photo
+{
+  position: relative;  
+  width: 200;  
+  height: 200;
+  border-bottom-left-radius: 50;
+  border-bottom-right-radius: 50;    
+  overflow: hidden; 
+}
+.girl-info .girl-photo img
+{
+ position: absolute;
+ top: 0;
+ left: 0;   
+ width: 100%;
+ height: 100%; 
+ object-fit: cover;   
+}
+.girl-info h3
+{
+    padding: 10px ;
+ color: black;
+ font-size: 20 ;   
+  margin-top: 10;
+  text-transform: uppercase;
+ text-align: center;
+ font-weight: 600;
+}
+.skills
+{
+    font-family: fantasy;
+}
+.phone
+{
+    
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+ .aboutlanguage 
+{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+
+.aboutlanguage .icon
+{
+    color: green;
+}
+
+.aboutlanguage  .text 
+{
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+
+.aboutlanguage  ul
+{
+    position: relative;
+}
+
+.aboutlanguage  ul li 
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.aboutlanguage  .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: white;
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+.aboutlanguage .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+}
+ .aboutSkills
+{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+
+.aboutSkills .icon
+{
+    color:black;
+
+}
+
+.aboutSkills .text 
+{
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+.aboutSkills ul
+{
+    position: relative;
+}
+
+.aboutSkills ul li 
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.aboutSkills .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: white;
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+.aboutSkills .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+     background-color: black;
+}
+.o
+{
+    clear: both;
+}
+footer
+{
+    text-align: center;
+    background: green;
+    color: #fff;
+    padding: 80px;
+    margin-bottom: -1200px;
+    margin-left: -600px;
+}
